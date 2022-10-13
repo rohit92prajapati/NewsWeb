@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav{
+  display: flex;
+  color: white;
+  background: #f74f43;
+  
+}
+ul{
+  list-style: none;
+  display: flex;
+  
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+
+}
+ul li a:hover{
+  background: white;
+  color:#f74f43 ;
+  padding: 15px;
+}
+.flex1main{
+  background: #faf0f6;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+  
+}
+.supermain{
+  display: flex;
+  justify-content: center;
+}
+.flex2newsitem{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+    border: 2px solid #f74f43;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+}
+.img{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+    
+}
+p{
+  padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+.newsitem{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn{
+  padding: 10px;
+  color: white;
+  background: #de688f;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 5px;
+}
+.flexnext{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  padding-bottom: 20px;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  background:  #faf0f6;
+  justify-content: center;
+ 
+  
+}
+.spinner{
+  border-radius: 50%;
+}
+.flexspiner{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.authorcolor{
+  color: #8a90a6;
+  font-size: 0.9rem;
+
+}
+.badge{
+  color: white;
+  background: #0e0f12;
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+}
